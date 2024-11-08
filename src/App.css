@@ -1,3 +1,48 @@
+/* Estilos para el Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links li {
+  list-style-type: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navbar-links a:hover {
+  color: #61dafb;
+}
+
+/* Estilo para el ícono del carrito */
+.cart-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.cart-count {
+  background-color: red;
+  border-radius: 50%;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
